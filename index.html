@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <div uk-sticky="" class="header-top uk-sticky uk-sticky-fixed AhlIv" style="position: fixed; top: 0px; width: 1536px;">
+    <div class="uk-container">
+      <nav class="uk-navbar-container uk-navbar-transparent uk-navbar" uk-navbar="">
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav ul">
+            <li>
+              <a href="/?locale=mn" class="a">
+                МОН
+              </a>
+            </li>
+            <li>
+              <a href="/?locale=en" class="a">
+                ENG
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <div id="modal-full" class="uk-modal-full uk-modal" uk-modal="">
+            <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="" style="min-height: calc(100vh);">
+              <button class="uk-modal-close-full uk-close uk-icon" type="button" uk-close="">
+                <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="svg">
+                  <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13">
+                  </line>
+                  <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13">
+                  </line>
+                </svg>
+              </button>
+              <form class="uk-search uk-search-large" action="/a/search">
+                <input class="uk-search-input uk-text-center" type="search" name="q" placeholder="Хайх..." autofocus="">
+              </form>
+            </div>
+          </div>
+          <ul class="uk-navbar-nav ul">
+            <li class="uk-flex-middle">
+              <span class="fa fa-phone" style="font-size: 18px;">
+              </span>
+              <span style="font-size: 14px;">
+                &nbsp;
+                <style>
+                  span.text *{
+                    display: inline}
+                </style>
+                <span class="text">
+                  <p class="p">
+                    +(976) 7272 2828
+                  </p>
+                </span>
+              </span>
+            </li>
+            <li>
+              <a href="#modal-full" uk-toggle="" style="font-size: 18px;" class="a">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="#" style="font-size: 18px;" class="a">
+                <i class="fa fa-user">
+                </i>
+              </a>
+              <div uk-dropdown="pos: bottom-right" class="uk-padding-small header-login uk-dropdown">
+                <ul class="uk-navbar-nav uk-padding-remove ul">
+                  <li>
+                    <a class="text-white text-12 a" href="http://bid.staging.sodonsolution.org/signin">
+                      Нэвтрэх
+                    </a>
+                  </li>
+                  <li>
+                    <a class="text-white text-12 a" href="http://bid.staging.sodonsolution.org/signup">
+                      Бүртгүүлэх
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+<div class="secheader">
+    <div class="cont">
+    <div class="img">
+        <img src="https://static4.sodonsolution.org/webs/bid/assets/bid-logo.png" alt="">
+    </div>
+    <div class="lists ">    
+        <p class="hover-underline-animation">БИДНИЙ ТУХАЙ</p>
+        <p class="hover-underline-animation">БҮТЭЭГДЭХҮҮН</p>
+        <p class="hover-underline-animation">ОНЛАЙН ЗЭЭЛ</p>
+        <p class="hover-underline-animation">ЗӨВЛӨГӨӨ</p>
+        <p class="hover-underline-animation">МЭДЭЭ</p>
+        <p class="hover-underline-animation">ХОЛБОО БАРИХ</p>
+    </div>
+    <div class="cos">
+    <button>ЗЭЭЛИЙН ХҮСЭЛТ</button>
+</div>
+</div>
+</div>
+    </div>
+    
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://resource4.sodonsolution.org/bid/image/2019/09/23/52gj9uitfmbkjte6/1-4.png" class="headimg" alt=""> <div class="bws"> <button class="btn"> 
+            Дэлгэрэнгүй</button> </div></div>
+          <div class="swiper-slide"><img src="https://resource4.sodonsolution.org/bid/image/2019/05/30/ak7egqcgq8t55leg/b.tuul.jpg" class="headimg" alt=""><h1>ИТГЭЛЦЭЛ</h1><p>Хадгаламжийн хүүнээс өндөр үр шим /ашиг/ хүртээнэ.</p> <div class="bs"> <button class="btn"> 
+            Дэлгэрэнгүй</button> </div></div>
+          <div class="swiper-slide"><img src="https://resource4.sodonsolution.org/bid/image/2019/05/08/4os0crj5ruonphao/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3%D0%B8%D0%B9%D0%BD%20%D0%B7%D1%8D%D1%8D%D0%BB.png" class="headimg" alt=""><h1 class="hd">АВТОМАШИНЫ ЛИЗИНГ</h1> <div class="bxo"><p class="hp">3.5B үнэлгээнээс дээш чанартай автомашиныг хамгийн уян хатан нөхцөлөөр олгож байна. Мөн та хүссэн газраасаа машинаа сонгож болно.</p></div><div class="bs1"><button class="btn">Дэлгэрэнгүй  </button></div></div>
+          <div class="swiper-slide"><img src="https://resource4.sodonsolution.org/bid/image/2019/10/02/kix13ji1nhxktkx1/eco_green.jpg" class="headimg" alt=""><h1 class="nogoon">НОГООН ЗЭЭЛ</h1> <div class="bs2"><button class="btn">Дэлгэрэнгүй</button></div></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="uk-container -7JdPy">
+        <div class="uk-position-relative uk-visible-toggle pointer-sliders uk-slider uk-slider-container" uk-slider="">
+          <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-grid uk-grid-small ul" style="transform: translateX(0px);">
+            <li class="uk-active">
+              <a href="/p/4" title="САНХҮҮГИЙН ТҮРГЭН ТУСЛАМЖ" class="uk-card uk-card-body uk-card-small pointer-item uk-display-block a">
+                <div class="pointer-item__img">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2019/01/10/19wg5fyg9wtuhlau/money_s.png" class="img">
+                </div>
+                <h3 class="uk-card-title title pointer-item__name text-16 uk-text-bold h3">
+                  САНХҮҮГИЙН ТҮРГЭН ТУСЛАМЖ
+                </h3>
+                <p class="pointer-item__desc p">
+                  Таны алтан цаг хугацааг хэмнэсэн, хүнд сурталгүй, ямар нэг бизнес төлөвлөгөө, төсөл ...
+                </p>
+              </a>
+            </li>
+            <li class="uk-active">
+              <a href="/p/8" title="БИЗНЕСИЙН ЗЭЭЛ" class="uk-card uk-card-body uk-card-small pointer-item uk-display-block a">
+                <div class="pointer-item__img">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2019/01/10/odvg6coqxqd9ig05/emplo_s.png" class="img">
+                </div>
+                <h3 class="uk-card-title title pointer-item__name text-16 uk-text-bold h3">
+                  БИЗНЕСИЙН ЗЭЭЛ
+                </h3>
+                <p class="pointer-item__desc p">
+                  Үйл ажиллагаа нь тогтворжсон бизнес эрхэлдэг иргэн, хуулийн этгээдэд бизнес хөгжлийн ...
+                </p>
+              </a>
+            </li>
+            <li class="uk-active">
+              <a href="/p/5" title="АВТОМАШИНЫ ЛИЗИНГ" class="uk-card uk-card-body uk-card-small pointer-item uk-display-block a">
+                <div class="pointer-item__img">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2019/01/10/pmqi423418gfz6i3/taxi_s.png" class="img">
+                </div>
+                <h3 class="uk-card-title title pointer-item__name text-16 uk-text-bold h3">
+                  АВТОМАШИНЫ ЛИЗИНГ
+                </h3>
+                <p class="pointer-item__desc p">
+                  Гаалийн бичигтэй автомашиныг хамгийн уян хатан нөхцөлөөр олгож байна...
+                </p>
+              </a>
+            </li>
+            <li class="uk-active">
+              <a href="/p/6" title="ЭКО ЗЭЭЛ" class="uk-card uk-card-body uk-card-small pointer-item uk-display-block a">
+                <div class="pointer-item__img">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2019/09/20/kdrjgbhoex5p76ip/70458271_424520658197788_3251053586079023104_n_s.png" class="img">
+                </div>
+                <h3 class="uk-card-title title pointer-item__name text-16 uk-text-bold h3">
+                  ЭКО ЗЭЭЛ
+                </h3>
+                <p class="pointer-item__desc p">
+                  Нийгмийн хариуцлагын хүрээнд зээлийн зориулалт нь хүрээлэн буй орчин, хүний эрүүл мэнд, хүлэмжийн хийг бууруулахад чиглэсэн байх бөгөөд тус ББСБ-аас тавьж буй зориулалттай нийцэж байх.
+                </p>
+              </a>
+            </li>
+            <li class="uk-active">
+              <a href="http://www.bid.mn/p/48" title="НОГООН ЗЭЭЛ" class="uk-card uk-card-body uk-card-small pointer-item uk-display-block a">
+                <div class="pointer-item__img">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2019/09/20/rvqz4l93kbg7quug/70397832_509591176277252_8883819838057742336_n_s.png" class="img">
+                </div>
+                <h3 class="uk-card-title title pointer-item__name text-16 uk-text-bold h3">
+                  НОГООН ЗЭЭЛ
+                </h3>
+                <p class="pointer-item__desc p">
+                  Энэхүү зээлийн бүтээгдэхүүн нь агаарын болон хөрсний бохирдлыг бууруулах замаар эрүүл хүнс, эрүүл амьдралыг бий болгож, ногоон байгууламжийг сайжруулах чиглэлд зориулан нийгмийн хариуцлагын хүрээнд бий болгосон зээл юм.
+                </p>
+              </a>
+            </li>
+          </ul>
+          <div class="uk-position-absolute uk-position-small uk-position-bottom-center">
+            <ul class="uk-slider-nav uk-dotnav uk-hidden ul">
+              <li uk-slider-item="0" class="uk-hidden uk-active">
+                <a href="#" class="a">
+                </a>
+              </li>
+              <li uk-slider-item="1" class="uk-hidden">
+                <a href="#" class="a">
+                </a>
+              </li>
+              <li uk-slider-item="2" class="uk-hidden">
+                <a href="#" class="a">
+                </a>
+              </li>
+              <li uk-slider-item="3" class="uk-hidden">
+                <a href="#" class="a">
+                </a>
+              </li>
+              <li uk-slider-item="4" class="uk-hidden">
+                <a href="#" class="a">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script src="app.js"></script>
+      <div class="cont1">
+        <div class="we-are">
+          <h1>БИД ГЭЖ ХЭН БЭ ?</h1>
+          <p>БИД ББСБ нь 2004 онд үүсгэн байгуулагдсанаас хойш амжилт бүтээлээр дүүрэн 17 жил өнгөрч байна. БИД салбартаа санхүүгийн хүртээмжтэй үйлчилгээг хамгийн түргэн шуурхай хүргэж нийгмийн хариуцлагаа эрхэмлэн салбартаа тэргүүлэгч ББСБ болоод байна.</p>
+          <div class="uk-button uk-button-default about-text__btn uk-border-rounded blue">
+            <a href="/p/13" uk-icon="icon: chevron-right" class="uk-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="snipcss0-0-0-1 tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
+                <polyline fill="none"  stroke="#000" stroke-width="1.03" points="7 4 13 10 7 16">
+                </polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="vid1">
+          <iframe width=600" height="230" src="https://www.youtube.com/embed/RMXyOy-VOb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="statistic -IRCZS">
+        <div class="uk-container">
+          <div class="uk-flex uk-flex-between">
+            <div>
+              <div class="statistic-item">
+                <span class="statistic-item__title uk-text-bold uk-display-block" id="target145">
+                  712,538,447,526
+                </span>
+                <span class="statistic-item__text">
+                  ТӨГРӨГНИЙ ЗЭЭЛ ОЛГОСОН
+                </span>
+              </div>
+            </div>
+            <div>
+              <div class="statistic-item">
+                <span class="statistic-item__title uk-text-bold uk-display-block" id="target146">
+                  142,554
+                </span>
+                <span class="statistic-item__text">
+                  ИРГЭДЭД ЗЭЭЛ ОЛГОСОН
+                </span>
+              </div>
+            </div>
+            <div>
+              <div class="statistic-item">
+                <span class="statistic-item__title uk-text-bold uk-display-block" id="target147">
+                  4,998,375
+                </span>
+                <span class="statistic-item__text">
+                  ДУНДАЖ ЗЭЭЛИЙН ХЭМЖЭЭ
+                </span>
+              </div>
+            </div>
+            <div>
+              <div class="statistic-item">
+                <span class="statistic-item__title uk-text-bold uk-display-block" id="target144">
+                  43,800
+                </span>
+                <span class="statistic-item__text">
+                  НИЙТ АЖИЛЛАСАН ЦАГ
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="advice-container">
+            <div class="uk-images">
+                <div class="first-column">
+                    <img src="https://resource4.sodonsolution.org/bid/image/2022/06/22/c9hgixdimmgf41ve/%D0%91%D0%98%D0%94%20%D0%91%D0%91%D0%A1%D0%91-%D1%8B%D0%BD%20%D1%85%D0%B0%D0%BC%D1%82%20%D0%BE%D0%BB%D0%BE%D0%BD%20%E2%80%9CLEVEL%20UP%E2%80%9D%20%D1%83%D1%80%D0%B8%D0%B0%D0%BD%20%D0%B4%D0%BE%D1%80%20%D0%B0%D0%B7%20%D0%B6%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D1%82%D0%B0%D0%B9%20%D0%B1%D0%B0%D1%8F%D1%80%20%D0%B1%D0%B0%D1%8F%D1%81%D0%BB%D0%B0%D0%B0%D1%80%20%D0%B4%D2%AF%D2%AF%D1%80%D1%8D%D0%BD%20%D2%AF%D1%80%20%D3%A9%D0%B3%D3%A9%D3%A9%D0%B6%D1%82%D1%8D%D0%B9%20%D0%B7%D1%83%D0%BD%D1%8B%20%D0%B0%D1%8F%D0%BB%D0%BB%D0%B0%D0%B0%20%D0%B7%D0%BE%D1%85%D0%B8%D0%BE%D0%BD%20%D0%B1%D0%B0%D0%B9%D0%B3%D1%83%D1%83%D0%BB%D0%BB%D0%B0%D0%B0_m.JPG" alt="">
+                      <p>БИД ББСБ-ЫН ХАМТ ОЛОН “LEVEL UP” УРИАН ДОР АЗ ЖАРГАЛТАЙ, БАЯР</p>
+                </div>
+                <div class="second-column">
+                  <img src="https://resource4.sodonsolution.org/bid/image/2022/04/29/smo5jpltays4typp/%D0%91%D0%98%D0%94%20%D0%91%D0%91%D0%A1%D0%91-%D1%8B%D0%BD%20%D1%85%D0%B0%D0%BC%D1%82%20%D0%BE%D0%BB%D0%BE%D0%BD%20%E2%80%9C%D0%91%D2%AE%D0%A5%20%D0%90%D0%96%D0%98%D0%9B%D0%A2%D0%9D%D0%AB%20%D0%A5%D0%A3%D0%A0%D0%90%D0%9B%E2%80%9D-%D0%B0%D0%B0%20%D0%B0%D0%BC%D0%B6%D0%B8%D0%BB%D1%82%D1%82%D0%B0%D0%B9%20%D0%B7%D0%BE%D1%85%D0%B8%D0%BE%D0%BD%20%D0%B1%D0%B0%D0%B9%D0%B3%D1%83%D1%83%D0%BB%D0%BB%D0%B0%D0%B0_m.png" alt="">
+                  <p>БИД ББСБ-ЫН ХАМТ ОЛОН “БҮХ АЖИЛТНЫ ХУРАЛ”-АА АМЖИЛТТАЙ</p>
+                </div>
+              <div class="third-column">
+                <img src="https://resource4.sodonsolution.org/bid/image/2022/04/29/w9j7glb3n1mxjhed/viber_image_2022-04-22_22-06-37-577_m.jpg" alt="">
+                <p>БИД ББСБ НЬ ОНЫ ШИЛДЭГ АЖИЛТНУУДАА ВЬЕТНАМ УЛСАД</p>
+              </div>
+              <div class="fourth-column">
+                <img src="https://resource4.sodonsolution.org/bid/image/2022/04/29/7hm35uuop8c7iukd/%20%D0%91%D0%98%D0%94%20%D0%91%D0%91%D0%A1%D0%91%20%D0%BD%D1%8C%20%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D1%8B%D0%BD%20%D0%A2%D0%BE%D0%B3%D1%82%D0%B2%D0%BE%D1%80%D1%82%D0%BE%D0%B9%20%D0%A1%D0%B0%D0%BD%D1%85%D2%AF%D2%AF%D0%B3%D0%B8%D0%B9%D0%BD%20%D0%A5%D0%BE%D0%BB%D0%B1%D0%BE%D0%BE%20%D0%A2%D0%BE%D0%A1%20%D0%A5%D0%BE%D0%BB%D0%B1%D0%BE%D0%BE-%D0%BD%D0%B4%20%D2%AF%D0%BD%D0%B4%D1%81%D1%8D%D0%BD%20%D0%B3%D0%B8%D1%88%D2%AF%D2%AF%D0%BD%D1%8D%D1%8D%D1%80%20%D1%8D%D0%BB%D1%81%D1%8D%D0%BD%20%D0%BE%D1%80%D0%BB%D0%BE%D0%BE_m.png" alt="">
+                <P>БИД ББСБ НЬ МОНГОЛЫН ТОГТВОРТОЙ САНХҮҮГИЙН ХОЛБОО /ТОС ХОЛБОО/-</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="big">
+        <div class="large3">
+          <div class="overlay"></div>
+          <div class="box-qr">
+            <h1>ОНЛАЙН ЗЭЭЛ ГЭЖ
+              ЮУ ВЭ ?</h1>
+              <div class="qr">
+                <img src="https://resource4.sodonsolution.org/bid/image/2021/05/25/70xq4s73nx7cdcwx/Layer%200_m_m.png" alt="">
+                <img src="https://resource4.sodonsolution.org/bid/image/2021/05/25/ha568ghetx3gboa4/Layer%201_m%201_m.png" alt="">
+              </div>
+        </div>
+        <div class="app-swi">
+          
+        </div>
+        </div>
+      </div>
+      
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+        });
+        d
+      </script>
+</body>
+</html>
